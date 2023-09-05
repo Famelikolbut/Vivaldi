@@ -1,7 +1,7 @@
-Dev projekt <span style="color:blue">Example Project</span>
+Dev projekt <span style="color:blue">
 Обучение работы с Github
 
-Установка <span style="color:green">
+Установка <span style="color:green">Installation</span>
 pip install fastapi uvicorn
 
 Использование <span style="color:orange">
