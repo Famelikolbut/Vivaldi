@@ -1,11 +1,11 @@
-Dev projekt <span style="color:blue">
+Dev projekt 
 Обучение работы с Github
 
-Установка <span style="color:green">Installation</span>
+Установка 
 pip install fastapi uvicorn
 
-Использование <span style="color:orange">
+Использование 
 Описание работы и примеры использования.
 
-Команда разработчиков <span style="color:red">
+Команда разработчиков 
 Колесников Артур Сергеевич - бэкенд
