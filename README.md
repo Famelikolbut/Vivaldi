@@ -1,4 +1,4 @@
-Dev projekt 
+Dev projekt /n
 Обучение работы с Github
 
 Установка 
