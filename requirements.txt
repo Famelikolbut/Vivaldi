@@ -1,0 +1,2 @@
+#FastApi
+fastapi==0.103.1
