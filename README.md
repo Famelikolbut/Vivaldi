@@ -2,7 +2,7 @@
 <h1 align="center"><b>Проект dev</b></h1>
 
 <!-- Тренировочная работа с Github -->
-<p align="center">Github для нубов.</p>
+<p align="center">Github для богов.</p>
 
 <!-- работа с Git и ветвление -->
 ## Описание
