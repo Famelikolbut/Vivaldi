@@ -39,7 +39,7 @@ git push - загрузить на git
 git branch feature/my_name - создание ветки 
 git checkout feature/my_name - переход на ветку
 ```
-### Для того, чтобы развернуть проект в Docker
+### Для того чтобы развернуть проект в Docker
 
 - Скачать и установить Docker
 - Создать Dockerfile в вашем проекте
