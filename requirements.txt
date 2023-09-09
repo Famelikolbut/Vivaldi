@@ -1,5 +1,4 @@
 #FastApi
 fastapi==0.103.1
-
 #Uvicorn
 uvicorn==0.23.2
