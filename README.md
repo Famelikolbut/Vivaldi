@@ -24,7 +24,6 @@
 fastapi==0.103.1
 uvicorn==0.23.2
 ```
-
 ### Добавить проект в репозиторий
 
 Прописать команды:
@@ -35,13 +34,11 @@ git commit -m "commit"  - закоммитеть файлы
 git pull - применить изменения если они были на github
 git push - загрузить на git
 ```
-
 ### Внесение изменений с помощью Pull requests
 ```
 git branch feature/my_name - создание ветки 
 git checkout feature/my_name - переход на ветку
 ```
-
 ### Для того, чтобы развернуть проект в Docker
 
 - Скачать и установить Docker
