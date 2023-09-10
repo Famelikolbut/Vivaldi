@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  my_app:
+    container_name: my_app_container
+    image: my_app_image
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - ./:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - my_pg
+    networks:
+      - my_network
+
+  my_pg:
+    container_name: my_pg_container
+    image: my_pg_image
+    build:
+      context: .
+      dockerfile: db.Dockerfile
+    volumes:
+      - my_pg_data:/var/lib/postgresql/data/
+    ports:
+      - "5435:5435"
+    env_file:
+      - .env
+    networks:
+      - my_network
+
+volumes:
+  my_pg_data:
+
+networks:
+  my_network:
+    driver: bridge
