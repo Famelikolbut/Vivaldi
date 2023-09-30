@@ -58,10 +58,7 @@ git checkout feature/my_name - переход на ветку
 docker build -t my_image . - создание образа
 docker run -d --name my_container -p 8000:8000 my_image - запуск контейнера
 ```
-<<<<<<< HEAD
 
-=======
->>>>>>> 68f3b64808d8f163bd39c24ce803fb74eb381878
 ### Разворот базы данных в контейнере и связь с приложением
 
 - Создать файл docker-compose.yml в проекте
