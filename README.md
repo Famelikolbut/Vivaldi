@@ -78,6 +78,7 @@ docker image prune - удаление образов none
 - SQLAlchemy==2.0.21
 - psycopg2-binary==2.9.7
 - alembic==1.12.0
+- pydantic==2.3.0
 ```
 
 Команды:
@@ -95,6 +96,7 @@ alembic upgrade head  - применение миграции к базе
 Загрузить библиотеки -->
 
 ```
+-python-multipart==0.0.6
 -pandas==2.1.1
 -openpyxl==3.1.2
 ```
